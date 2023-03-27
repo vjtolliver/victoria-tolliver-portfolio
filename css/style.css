@@ -55,8 +55,18 @@ h2 {
     font-size: large;
 
 }
+
+
 /* Contact Information Subjects in bold */
 p span {
     font-size: medium;
     font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
 }
