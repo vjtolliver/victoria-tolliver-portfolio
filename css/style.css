@@ -1,18 +1,61 @@
 :root {
-    --main-background: gray;
-    --main-accent: purple;
+    --main-background: blue;
+    --main-accent: black;
     --border-size: 50px
 }
 
 body {
 background-color: var(--main-background);
+margin: 0px;
+padding: 0px;
+
 }
 
 header {
+    color: whitesmoke;
     background-color: var(--main-accent);
-    
+    font-size: x-large;
+    padding: 60px;
+    text-align: center;
 }
 
+/* Navigation Bar */
+.navbar {
+list-style-type: none;
+display: flex;
+flex-direction: row;
+/* Removing float right */
+justify-content: space-around;
+margin: 0px;
+padding: 0px;
+}
+
+li {
+    float: center;
+}
+
+/* Navigation Bar Links */
+li a {
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: thick;
+}
+
+img {
+display: block;
+width: 50%;
+border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+h2 {
+    font-size: large;
+
+}
+/* Contact Information Subjects in bold */
 p span {
     font-size: medium;
     font-weight: bold;
