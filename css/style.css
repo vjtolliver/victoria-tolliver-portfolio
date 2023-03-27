@@ -1,0 +1,19 @@
+:root {
+    --main-background: gray;
+    --main-accent: purple;
+    --border-size: 50px
+}
+
+body {
+background-color: var(--main-background);
+}
+
+header {
+    background-color: var(--main-accent);
+    
+}
+
+p span {
+    font-size: medium;
+    font-weight: bold;
+}
