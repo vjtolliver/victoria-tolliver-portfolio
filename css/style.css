@@ -43,6 +43,18 @@ li a {
     text-decoration-thickness: thick;
 }
 
+#meetme {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+
 .meetme {
     display: block;
     width: 25%;
@@ -52,27 +64,19 @@ li a {
     border: solid 20px;
 }
 
-h2 {
-    font-size: 60px;
-    text-align: center;
-    text-decoration: underline;
-}
-
-
-#meetme {
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-
 /* Research if styling a horizontal rule is possible */
 
-#projects {
+.projects {
 display: flex;
 justify-content: center;
 flex-direction: row;
 flex-wrap: wrap;
 }
+
+/* #projects h2 {
+    align-self: flex-start;
+    align-self: center;
+} */
 
 .firstproject {
     border-style: solid;
@@ -95,7 +99,7 @@ flex-wrap: wrap;
     /* align-content: center; */
 }
 
-/* Remove .moreprojects formatting */
+/* Removed .moreprojects formatting */
 
 .rmndrprojects {
     border-style: solid;
@@ -119,10 +123,15 @@ flex-wrap: wrap;
 #contact {
     text-align: center;
 }
+
 /* Contact Information Subjects in bold */
 p span {
     font-size: medium;
     font-weight: bold;
+}
+
+#contact a{
+    color: black;
 }
 
 footer {
