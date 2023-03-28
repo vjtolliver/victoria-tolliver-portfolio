@@ -85,13 +85,14 @@ flex-wrap: wrap;
 
 
 .firstproject a {
-    margin-top: 40%;
-    font-size: 100px;
+    margin-top: 30%;
+    font-size: 80px;
+    text-align: center;
     color: whitesmoke;
     background-color: black;
     display: flex;
     justify-content: center;
-    align-content: center;
+    /* align-content: center; */
 }
 
 /* Remove .moreprojects formatting */
