@@ -1,7 +1,7 @@
 :root {
     --main-background: blue;
     --main-accent: black;
-    --border-size: 50px
+    --text-accent: whitesmoke;
 }
 
 body {
@@ -12,7 +12,7 @@ padding: 0px;
 }
 
 header {
-    color: whitesmoke;
+    color: var(--text-accent);
     background-color: var(--main-accent);
     font-size: x-large;
     padding: 60px;
@@ -36,10 +36,10 @@ li {
 
 /* Navigation Bar Links */
 li a {
-    color: whitesmoke;
+    color: var(--text-accent);
     font-weight: bold;
     text-decoration: underline;
-    text-decoration-color: blue;
+    text-decoration-color: var(--main-background);
     text-decoration-thickness: thick;
 }
 
@@ -92,8 +92,8 @@ flex-wrap: wrap;
     margin-top: 30%;
     font-size: 80px;
     text-align: center;
-    color: whitesmoke;
-    background-color: black;
+    color: var(--text-accent);
+    background-color: var(--main-accent);
     display: flex;
     justify-content: center;
     /* align-content: center; */
@@ -113,8 +113,8 @@ flex-wrap: wrap;
     margin-top: 35%;
     font-size: 30px;
     text-align: center;
-    color: whitesmoke;
-    background-color: black;
+    color: var(--text-accent);
+    background-color: var(--main-accent);
     display: flex;
     justify-content: center;
 }
@@ -135,9 +135,31 @@ p span {
 }
 
 footer {
-    background-color: black;
-    color: whitesmoke;
+    background-color: var(--main-accent);
+    color: var(--text-accent);
     text-align: center;
     margin: 0px;
     padding: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screens and (max-width: 600px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .navbar li a {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
